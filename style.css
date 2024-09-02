@@ -1,6 +1,7 @@
 /* General Body Styles */
 body {
-    font-family: 'Roboto', sans-serif;
+                                                                       font-family: 'Hackers', sans-serif;
+                                                
     background: radial-gradient(circle, #000000, #1a1a1a, #333333); /* Dark radial gradient background */
     color: #e0e0e0; /* Light text for contrast */
     margin: 0;
@@ -14,7 +15,7 @@ body {
     background: rgba(20, 20, 20, 0.9); /* Dark, semi-transparent background */
     border: none solid #00ff00; /* Neon green border */
     border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 255, 0, 0.8); /* Green neon glow */
+    box-shadow: 0 0 2px rgba(0, 255, 0, 0.8); /* Green neon glow */
     padding: 20px;
     max-width: 500px; /* Max width of 90% of the viewport */
     width: 100%; /* Full width of its parent container */
@@ -59,7 +60,7 @@ h1 {
     width: 100%;
     border-radius: 6px; /* Curved edges for images */
     display: block; /* Remove bottom space */
-   filter: blur(5px);
+   filter: blur(2px);
 }
 
 .game-option p {
@@ -272,4 +273,58 @@ html, body {
         width: 16px; /* Even smaller slider thumb */
         height: 16px;
     }
+  /* Add this to your main CSS file or inside a <style> tag in your HTML <head> */
+
+.tab-container {
+
+    display: flex;
+
+    background-color: #1f1f1f;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+}
+
+.tab-button {
+
+    flex: 1;
+
+    padding: 10px;
+
+    background-color: #2c2c2c;
+
+    border: none;
+
+    color: white;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    outline: none;
+
+    transition: background-color 0.3s;
+
+}
+
+.tab-button.active, .tab-button:hover {
+
+    background-color: #444;
+
+}
+
+.tab-content {
+
+    padding: 
+
+    background-color: #1f1f1f;
+
+    color: white;
+
+    border-radius: 0 0 8px 8px;
+
+    margin-top: 10px;
+}
 }
