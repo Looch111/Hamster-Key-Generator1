@@ -1,8 +1,8 @@
 /* General Body Styles */
 body {
-                                                                       font-family: 'Hackers', sans-serif;
+                                                                       font-family: 'Roboto', sans-serif;
                                                 
-    background: radial-gradient(circle, #000000, #1a1a1a, #333333); /* Dark radial gradient background */
+    background: black; /* Dark radial gradient background */
     color: #e0e0e0; /* Light text for contrast */
     margin: 0;
     padding: 0;
@@ -12,10 +12,10 @@ body {
 /* Container Styles */
 .container {
     position: relative;
-    background: rgba(20, 20, 20, 0.9); /* Dark, semi-transparent background */
-    border: none solid #00ff00; /* Neon green border */
-    border-radius: 8px;
-    box-shadow: 0 0 2px rgba(0, 255, 0, 0.8); /* Green neon glow */
+    background: black; /* Dark, semi-transparent background */
+   
+  
+   
     padding: 20px;
     max-width: 500px; /* Max width of 90% of the viewport */
     width: 100%; /* Full width of its parent container */
@@ -28,8 +28,8 @@ body {
 h1 {
     margin-bottom: 20px;
     font-size: 1.5em; /* Responsive font size */
-    color: #00ff00; /* Neon green text */
-    text-shadow: 0 0 5px #00ff00; /* Glowing effect */
+    color: #fcfefe; /* Neon green text */
+    text-shadow: 0 0 px #fcfefe; /* Glowing effect */
 }
 
 /* Grid Container Styles */
@@ -69,7 +69,7 @@ h1 {
     left: 50%; /* Center text horizontally */
     transform: translateX(-50%); /* Center text horizontally */
     font-weight: bold; /* Make text bold */
-    color: #e0e0e0; /* Light color for better contrast */
+    color: #fafafa; /* Light color for better contrast */
     font-size: 1em; /* Responsive font size */
     margin: 0; /* Remove default margin */
     padding: 5px; /* Padding around text for spacing */
@@ -81,7 +81,7 @@ h1 {
 
 .game-option:hover, .game-option.selected {
     transform: scale(1.05);
-    border-color: #00ff00; /* Neon green border on hover */
+    border-color: #fcfefe; /* Neon green border on hover */
 }
 
 /* Form Group Styles */
@@ -94,7 +94,7 @@ label {
     display: block;
     margin-bottom: 8px;
     font-weight: 500;
-    color: #aaa;
+    color: #fcfefe;
 }
 
 /* Key Slider Styles */
@@ -132,12 +132,12 @@ label {
 #keyValue {
     font-size: 1em; /* Responsive font size */
     font-weight: bold;
-    color: #00ff00;
+    color: #fcfefe;
 }
 
 /* Button Styles */
 button {
-    background-color: #00ff00;
+    background-color: #fcfefe;
     color: #000;
     border: none;
     padding: 10px 18px;
@@ -149,7 +149,7 @@ button {
 }
 
 button:hover {
-    background-color: #00cc00;
+    background-color: #444;
 }
 
 /* Hidden Class */
@@ -159,7 +159,7 @@ button:hover {
 
 /* Progress Bar Styles */
 .progress-bar {
-    background-color: #333;
+    background-color: #444;
     border-radius: 8px;
     overflow: hidden;
     margin-top: 20px;
@@ -169,7 +169,7 @@ button:hover {
 
 .progress-bar div {
     height: 100%;
-    background-color: #00ff00;
+    background-color: #fcfefe;
     width: 0;
     transition: width 0.5s;
 }
@@ -198,30 +198,31 @@ button:hover {
 }
 
 .copyKeyBtn {
-    background-color: #28a745;
+    background-color: #fcfefe;
     border: none;
     padding: 10px 18px;
-    color: white;
+    color: #000;
     font-size: 0.9em; /* Responsive font size */
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s;
+  margin: 2px 4px;
 }
 
 .copyKeyBtn:hover {
-    background-color: #218838;
+    background-color: #444;
 }
 
 /* Footer Styles */
 .footer {
     margin-top: 20px;
     font-size: 0.75em; /* Responsive font size */
-    color: #777;
+    color: #444;
 }
 
 #copyStatus {
     margin-top: 10px;
-    color: green;
+    color: white;
 }
 
 /* Ensure the page is scrollable */
