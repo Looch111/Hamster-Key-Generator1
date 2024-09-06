@@ -120,7 +120,7 @@ label {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #00ff00;
+    background: #fcfefe;
     cursor: pointer;
     transition: background 0.3s;
 }
