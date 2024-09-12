@@ -7,10 +7,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
-/* Container Styles */
-.container {
     position: relative;
     background: black; /* Dark, semi-transparent background */
    
