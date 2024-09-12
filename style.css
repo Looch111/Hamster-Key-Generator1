@@ -14,7 +14,7 @@ body {
   
    
     padding: 20px;
-    max-width: 500px; /* Max width of 90% of the viewport */
+    max-width: 400px; /* Max width of 90% of the viewport */
     width: 100%; /* Full width of its parent container */
     margin: 70px auto; /* Center horizontally with vertical margin */
     text-align: center;
