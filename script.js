@@ -133,6 +133,13 @@ document.addEventListener('DOMContentLoaded', () => {
             promoId: '04ebd6de-69b7-43d1-9c4b-04a6ca3305af',
             timing: 20000, // 40 seconds
             attempts: 30,
+        },
+       14: {
+            name: 'Bouncemasters',
+            appToken: 'bc72d3b9-8e91-4884-9c33-f72482f0db37',
+            promoId: 'bc72d3b9-8e91-4884-9c33-f72482f0db37',
+            timing: 20000, // 40 seconds
+            attempts: 30,
         }
     };
 
@@ -152,10 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const generatedKeysTitle = document.getElementById('generatedKeysTitle');
     const copyStatus = document.getElementById('copyStatus');
     const generateMoreBtn = document.getElementById('generateMoreBtn');
-   
     let selectedGame = null;
-
-
     gameOptions.forEach(option => {
         option.addEventListener('click', () => {
             gameOptions.forEach(opt => opt.classList.remove('selected'));
